@@ -1,5 +1,5 @@
 {
-	"name": "consistence/consistence-doctrine-symfony",
+	"name": "consistence-community/consistence-doctrine-symfony",
 	"description": "Symfony Bundle integrating Consistence library with Doctrine ORM",
 	"keywords": ["consistence", "doctrine", "orm", "symfony", "bundle"],
 	"license": "MIT",
@@ -24,6 +24,9 @@
 		"php-parallel-lint/php-parallel-lint": "1.2.0",
 		"phing/phing": "2.16.4",
 		"phpunit/phpunit": "9.5.2"
+	},
+	"replace": {
+		"consistence/consistence-doctrine-symfony": "2.*"
 	},
 	"autoload": {
 		"psr-4": {
